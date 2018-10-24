@@ -18,52 +18,98 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
 	  
 	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:100,100i" rel="stylesheet">
+
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-pink fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Ines Camara</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo.svg" width="150" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#vision">Vision</a>
+              <a class="nav-link js-scroll-trigger" href="#work"><span class="menu-item">Work</span></a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="html/about.html"><span class="menu-item">About</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact"><span class="menu-item">Contact</span></a>
             </li>
+			  <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#"><img src="img/email.svg" alt="Email" width="14" /></a>
+              </li>
+			  <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#"><img src="img/linkedin.svg" alt="Linkedin" width="14" /></a>
+              </li>
+			  <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#"><img src="img/instagram.svg" alt="Instagram" width="14" /></a>
+              </li>
           </ul>
+				
         </div>
       </div>
     </nav>
 	<!-- Header -->
-    <header class="bg-dark text-white">
+    <header class="bg-pink">
       <div class="container">
-        <h1>UX Researcher and Designer</h1>
-        <p class="lead">with UI skills, web development knowledge and a background in media</p>
+		  <div class="row pt-0">
+		  	<div class="col-8">
+				<h1>Hello, <br> I am a UX Researcher &amp; Designer.</h1>
+				<p class="lead">But I am much more. Do not stop reading.</p>
+<!--
+				<p><a href="#">About me</a></p>
+				<p><a href="#">email</a> | <a href="#">linkedin</a> | <a href="#">instagram</a></p>
+-->
+<!--				<p>I have UI skills, web development knowledge and a background in media</p>-->
+			</div>
+			<div class="col"></div>
+		  </div>
+        
+        
       </div>
     </header>
 	<!-- Work -->  
 	<section id="work">
 		<div class="container">
 			<h3 class="text-center">Recent work</h3>
-		      <div class="row">
+			<!--Project 1-->
+		      <div class="row mt-4">
+				  <div class="col">
+				  	<h5>Project 1</h5>
+					<p>Date, place</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">Read more</a></p>
+				  </div>
+				  <div class="col-5">
+				  	<img src="img/project-1.jpg" class="image" alt="Project 1" />
+				  </div>
+				</div>
+      <!-- /.row -->
+			<!--Project 2-->
+		      <div class="row mt-4">
+				  <div class="col">
+				  	<h5>Project 2</h5>
+					<p>Date, place</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">Read more</a></p>
+				  </div>
+				  <div class="col-5">
+				  	<img src="img/project-1.jpg" class="image" alt="Project 1" />
+				  </div>
+				</div>
+      <!-- /.row -->
+			<div class="row">
+				<div class="col text-center"><a class="btn btn-primary" href="#" role="button">More projects</a></div>
+			</div>
 				<!-- Project 1 -->  
-				<div class="col-lg-6 portfolio-item">
+<!--
+				<div class="col-4 portfolio-item">
 				  <a href="#"><div class="card h-100">
 					<img class="card-img-top image" src="img/project-1.jpg" alt="">
 						<div class="overlay">
@@ -77,8 +123,10 @@
 					</div>
 				</div></a>
 				</div>
+-->
 				<!-- Project 2 -->  
-				<div class="col-lg-6 portfolio-item">
+<!--
+				<div class="col-4 portfolio-item">
 				  <div class="card h-100">
 					<a href="#"><img class="card-img-top" src="img/project-2.jpg" alt=""></a>
 					<div class="card-body">
@@ -89,8 +137,10 @@
 					</div>
 				  </div>
 				</div>
+-->
 				<!-- Project 3 -->  
-				<div class="col-lg-6 portfolio-item">
+<!--
+				<div class="col-4 portfolio-item">
 				  <div class="card h-100">
 					<a href="#"><img class="card-img-top" src="img/project-3.jpg" alt=""></a>
 					<div class="card-body">
@@ -101,8 +151,10 @@
 					</div>
 				  </div>
 				</div>
+-->
 				<!-- Project 4 -->  
-				<div class="col-lg-6 portfolio-item">
+<!--
+				<div class="col-4 portfolio-item">
 				  <div class="card h-100">
 					<a href="#"><img class="card-img-top" src="img/project-4.jpg" alt=""></a>
 					<div class="card-body">
@@ -113,8 +165,10 @@
 					</div>
 				  </div>
 				</div>
+-->
 				<!-- Project 5 -->  
-				<div class="col-lg-6 portfolio-item">
+<!--
+				<div class="col-4 portfolio-item">
 				  <div class="card h-100">
 					<a href="#"><img class="card-img-top" src="img/project-5.jpg" alt=""></a>
 					<div class="card-body">
@@ -125,6 +179,7 @@
 					</div>
 				  </div>
 				</div>
+-->
 				<!-- Project 6 -->  
 				<!--<div class="col-lg-6 portfolio-item">
 				  <div class="card h-100">
@@ -137,12 +192,12 @@
 					</div>
 				  </div>
 				</div>-->
-      		</div>
-      <!-- /.row -->
+      		
 		</div>
 		
 	</section>  
     <!-- Vision -->
+<!--
     <section id="vision" class="bg-light">
       <div class="container">
         <div class="row">
@@ -156,11 +211,13 @@
         </div>
       </div>
     </section>
+-->
 	<!-- About -->  
+<!--
 	<section id="about">
 	<div class="container">
 	<div class="row">
-	  <!--<div class="col-lg-8 mx-auto">-->
+	  
 		<h2>Lifelong learner</h2>
 		<p class="lead">Some people study because they must acquire certain skills. I am a fierce supporter of learning for the sake of learning. Yes, sure. Masterying a particular ability is important. I believe though, that the power lies in knowing a bit of everything.</p>
 		<div class="col-lg-6">		
@@ -214,11 +271,13 @@
 		      <li>I am a kind of a fitness freak XD</li>
 			</ul>
 		</div>
-	  <!--</div>-->
+
 	</div>
 	</div>
 	</section>
+-->
 	<!-- Contact -->
+<!--
     <section id="contact">
       <div class="container">
         <div class="row">
@@ -229,11 +288,24 @@
         </div>
       </div>
     </section>
+-->
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+		  <div class="row pt-0 pb-0">
+		  	<div class="col pt-3">
+			  	<img src="img/logo-negative.svg" alt="Ines Camara" width="100" />
+			  </div>
+			<div class="col text-center">
+				<ul class="social-nav">
+			  		<li class="social-nav-item"><a href="#"><img src="img/email-negative.svg" alt="Email" width="15" /></a></li>
+					<li class="social-nav-item"><a href="#"><img src="img/linkedin-negative.svg" alt="Linkedin" width="15" /></a></li>
+					<li class="social-nav-item"><a href="#"><img src="img/instagram-negative.svg" alt="Instagram" width="15" /></a></li>
+				</ul>
+			</div>
+		  </div>
+        
       </div>
       <!-- /.container -->
     </footer>

@@ -18,6 +18,7 @@ header {
 }
 */
 
+
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
@@ -100,17 +101,17 @@ header.pr-2 {
 	background-size: cover;
 
 }
-nav a {
+a {
 	color: inherit;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
+
 /* hr line  */
 hr {
   border: 0;
   clear:both;
   display:block;
   width: 10%;               
-  background-color:#1B1818;
   height: 3px;
 }
 .btn-transparent {
@@ -124,4 +125,74 @@ blockquote {
     margin-bottom: 1em;
     margin-left: 40px;
     margin-right: 40px;
+}
+.text-red {
+	color: #dc3545;
+}
+.project-title-red {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #dc3545;
+}
+.project-subtitle {
+	font-style: italic;
+}
+.pt-6 {
+	padding-top: 5rem !important;
+}
+h1, h2, h3, h4, h5, h6, a {
+	text-transform: uppercase;
+/*	font-weight: 300;*/
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 4rem !important;
+}
+.bg-pink {
+	background-color: #fce1e0;
+}
+body, p, section, article, ul {
+	font-weight: 400 !important;
+}
+.lead {
+	font-weight: 400 !important;
+}
+/* social icons nav */
+ul.social-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.social-nav-item {
+    float: right;
+}
+
+li.social-nav-item a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+span.menu-item {
+	vertical-align: -2px;
+}
+.border-pink {
+	border: 2px solid rgba(252, 225, 224, 0.7);
+}
+/* vertical align content */
+#outerDiv{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*bg jarvis*/
+.bg-jarvis {
+	background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/jarvis/jarvis_header);
+	min-height: 200px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color: #ffffff;
 }
